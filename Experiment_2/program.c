@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){char src[256],dst[256]; FILE *a,*b; int ch; printf("Source file: "); if(scanf("%255s",src)!=1)return 1; printf("Destination file: "); if(scanf("%255s",dst)!=1)return 1; a=fopen(src,"rb"); if(!a){perror(src);return 1;} b=fopen(dst,"wb"); if(!b){perror(dst);fclose(a);return 1;} while((ch=fgetc(a))!=EOF)fputc(ch,b); fclose(a);fclose(b); puts("File copied successfully.");return 0;}
