@@ -1,0 +1,1 @@
+Example output:\nSource file: input.txt\nDestination file: copy.txt\nFile copied successfully.\n
