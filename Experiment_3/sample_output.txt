@@ -1,0 +1,1 @@
+Example output (input burst times 5, 3, 2):\nPID BT WT TAT\nP1 5 0 5\nP2 3 5 8\nP3 2 8 10\nAvg WT=4.33 Avg TAT=7.67\n
