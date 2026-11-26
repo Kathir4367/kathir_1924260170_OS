@@ -1,0 +1,1 @@
+Example run uses preemptive priority selection. Enter burst time and priority per process; this version assumes all processes arrive at time 0.\n
